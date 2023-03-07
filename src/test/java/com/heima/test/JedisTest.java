@@ -26,7 +26,7 @@ public class JedisTest {
         //设置密码
         jedis.auth("123321");
         //选择库
-        jedis.select(1);
+        jedis.select(3);
 
 
     }
